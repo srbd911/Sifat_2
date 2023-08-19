@@ -1,0 +1,272 @@
+/*=========for extra small device less than or equal 575px===========*/
+@media only screen and (max-width: 575px) {
+
+    #menu .logo h1 {
+        padding-left: 20px;
+    }
+
+    #banner-section {
+        padding-bottom: 50px;
+    }
+
+    .banner-left h1 {
+        font-size: 22px;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .banner-left h2 {
+        font-size: 20px;
+        margin-left: 20px;
+       
+    }
+
+    .navbar a {
+        margin-left: 60px;
+    }
+
+    .navbar-nav .nav-item #get-started {
+        padding-right: 10px;
+        margin-left: 10px;
+        width: 170px;
+    }
+
+    .banner-left #a1 {
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .banner-left #a1 {
+        padding: 10px 10px 10px 10px;
+        font-size: 14px;
+    }
+
+    .banner-left #a2 {
+        /* display: inline-block; */
+        padding: 10px 10px 10px 0px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .banner-left #a2 i {
+        font-size: 20px;
+        padding: 15px 10px 15px 0px;
+
+    }
+
+    .banner-right {
+        padding-bottom: 50px;
+    }
+
+    .banner-right img {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        top: -30px;
+        left: -15px;
+    }
+
+    .banner-left #a2 i {
+        font-size: 24px;
+        padding: 15px 10px 15px 0px;
+    }
+
+    .banner-left {
+        padding-top: 10px;
+    }
+
+    .banner-left #a1 {
+        margin-bottom: 10px;
+
+    }
+
+    @keyframes banner_animation {
+        from {
+            top: 10px;
+            transform: scale(1.1);
+        }
+
+        to {
+            top: 30px;
+            transform: scale(1.2);
+        }
+    }
+
+    .about_left {
+        width: 100%;
+        overflow: hidden;
+        padding-top: 0px;
+    }
+    
+
+    .about_left p {
+        font-size: 15px;
+        margin: 30px;
+    }
+
+    .about_left ul {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .about_left ul li svg {
+        margin-left: 20px;
+    }
+
+    .about_left ul span {
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top: -20px;
+    }
+
+    .about_right {
+        padding-top: 0px;
+        text-align: left;
+        padding-right: 8px;
+    }
+    .about_right p {
+        padding: 0px 30px;
+        font-size: 15px;
+    }
+    #faq {
+        padding-top: 50px;
+    }
+    .faq-left h3 {
+        font-size: 20px;
+        /* text-align: center; */
+        margin: 0px 20px;
+    }
+    .about_right button {
+        margin-left: 30px;
+    }
+    .faq-left p {
+        margin: 10px 20px;
+    }
+    .faq-right img {
+        left: 50%;
+        top: 0px;
+    }
+    .progress-bar-right h3 {
+        /* margin: 30px; */
+        font-size: 26px;
+    }
+    .progress-bar-right p {
+        /* margin: 30px; */
+        font-size: 16px;
+        padding-right: 50px;
+    }
+   
+
+    #services .flex-container {
+       
+        column-gap: 15px;
+        row-gap: 15px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    #services .flex-container>div {
+        flex-basis: 45%;
+        background-color: #fff;
+       
+    }
+    #services .flex-container>div p {
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    #services .flex-container>div i {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    #services .flex-container>div h4 {
+        padding-left: 0px;
+    }
+    #services .service_sub_header p {
+        text-align: left;
+    }
+    #call_to_action .call_to_action_left p {
+        padding-left: 10px;
+    }
+    #call_to_action .call_to_action_left h3 {
+        padding-left: 10px;
+    }
+    #team .team-header p {
+        padding-left: 5px;
+        text-align: left;
+    }
+    #team .team-card .team-card-item .card-pic img {
+        width: 110px;
+        height: 110px;
+    }
+    #call_to_action .call_to_action_right a {
+        left: 0%;
+    }
+
+}
+
+/* ===========================For small device 576px to 767px=============================== */
+@media (min-width: 576px) and (max-width: 767px) {
+    #team .team-card .team-card-item .card-pic img {
+        width: 110px;
+        height: 110px;
+    }
+    #call_to_action .call_to_action_right a {
+        left: 0%;
+    }
+
+    #services .flex-container {
+        row-gap: 20px;
+    }
+    #services .flex-container>div {
+        flex-basis: 48%;
+        
+    }
+    .faq-right img {
+        top: 0%;
+    }
+    .about_left ul li {
+       
+        display: inline-block;
+    }
+    .navbar-nav .nav-item #get-started {
+      
+        margin-left: 10px;
+    }
+}
+
+/* ============For medium device============= */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .banner-right img {
+        width: 300px;
+        height: 300px;
+    }
+    .faq-left h3 {
+        font-size: 22px;
+    }
+    .faq-right img {
+        top: 0%;
+        left: 63%;
+    }
+    .progress-bar-left img {
+        position: relative;
+        top: 25%;
+        left: -10%;
+    }
+    .progress-bar-right h3 {
+        font-size: 21px;
+    }
+    #services .flex-container {
+        row-gap: 20px;
+    }
+    #services .flex-container>div {
+        flex-basis: 48%;
+        
+    }
+    #call_to_action .call_to_action_right a {
+        left: 0%;
+    }
+}
