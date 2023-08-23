@@ -10,6 +10,10 @@ body {
 
 #menu {
     background-color: #37517e;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
 }
 
 #menu .logo-menu {
@@ -648,3 +652,76 @@ body {
     background-color: #00B4FF;
     color: #fff;
 }
+
+/* ====================== gallery section css starts ===================== */
+#gallery {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#gallery .gallery-flex-container {
+    background-color: purple;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    
+}
+#gallery .gallery-flex-container .gallery-flex-items {
+    flex-basis: 30%;
+    height: 250px;
+    background-color: yellow;
+    text-align: center;
+    line-height: 250px;
+}
+#gallery .gallery-header {
+    background-color: #FFFFFF;
+    padding-top: 68px;
+    padding-bottom: 40px
+}
+#gallery .gallery-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    display: inline-block;
+}
+
+#gallery .gallery-header h1::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    background-color: #ddd;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#gallery .gallery-header h1::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #00B4FF;
+    left: 50%;
+    bottom: -1px;
+    transform: translateX(-50%);
+}
+#gallery .gallery-header p {
+    color: #444444;
+    font-size: 16px;
+}
+
+
+
