@@ -205,6 +205,12 @@
         left: 0%;
     }
 
+    #gallery .gallery-flex-container .gallery-flex-items {
+        flex-basis: 45%;
+        height: 200px;
+        line-height: 200px; 
+    }
+
 }
 
 /* ===========================For small device 576px to 767px=============================== */
@@ -234,6 +240,11 @@
     .navbar-nav .nav-item #get-started {
       
         margin-left: 10px;
+    }
+    #gallery .gallery-flex-container .gallery-flex-items {
+        flex-basis: 45%;
+        height: 200px;
+        line-height: 200px; 
     }
 }
 
@@ -268,5 +279,10 @@
     }
     #call_to_action .call_to_action_right a {
         left: 0%;
+    }
+    #gallery .gallery-flex-container .gallery-flex-items {
+        flex-basis: 30%;
+        height: 250px;
+        line-height: 250px; 
     }
 }
