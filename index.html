@@ -12,20 +12,24 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap"
+    rel="stylesheet">
 
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
 
-    
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <script src="https://kit.fontawesome.com/0511f44084.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0511f44084.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href=".\backToTop.css">
 
   <link rel="stylesheet" href="./style.css">
-  
+
   <link rel="stylesheet" href="./responsive.css">
 
 </head>
@@ -38,7 +42,7 @@
           <h1>Sifat</h1>
         </div>
         <div class="col-lg-10 col-md-9 col-sm-10 col-10 menu">
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg" id="menu-links">
             <div class="container-fluid">
               <a class="navbar-brand" href="#" style="color: transparent;">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -51,16 +55,16 @@
                     <a class="nav-link navbar-brand" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">About</a>
+                    <a class="nav-link" aria-current="page" href="#about_us">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#gallery">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#team">Team</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -123,37 +127,48 @@
   <section id="about_us">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-12 col-sm-12 about_header text-center"><h2>About Us</h2></div>
+        <div class="col-lg-12 col-12 col-sm-12 about_header text-center">
+          <h2>About Us</h2>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-12 col-sm-12 col-md-6 about_left">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
           <ul>
             <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all" viewBox="0 0 16 16">
-                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
-                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
               </svg>
             </li>
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia!<br></span>
             <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all" viewBox="0 0 16 16">
-                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
-                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
               </svg>
             </li>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit<br></span>
             <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all" viewBox="0 0 16 16">
-                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"/>
-                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#4DB2E4" class="bi bi-check2-all"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z" />
               </svg>
             </li>
             <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia.<br></span>
           </ul>
         </div>
         <div class="col-lg-6 col-12 col-sm-12 col-md-6 about_right">
-          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <button type="button" class="btn btn-light">Learn More</button>
         </div>
       </div>
@@ -164,48 +179,55 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-12 col-md-6 faq-left">
-            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-            </p>
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <span>01</span> Non consectetur a erat nam at lectus urna duis?
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <span>02</span>  Feugiat scelerisque varius morbi enim nunc?
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <span>03</span>   Dolor sit amet consectetur adipiscing elit?
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                  </div>
+          <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Duis aute irure dolor in reprehenderit
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span>01</span> Non consectetur a erat nam at lectus urna duis?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span>02</span> Feugiat scelerisque varius morbi enim nunc?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span>03</span> Dolor sit amet consectetur adipiscing elit?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 col-12 col-md-6 faq-right">
           <img src="./images/gif_2.gif" alt="gif_2">
@@ -222,40 +244,49 @@
         </div>
         <div class="col-lg-6 col-12 col-md-6 progress-bar-right">
           <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
-          <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio porro numquam illo nobis accusamus recusandae, esse id non atque?</p>
+          <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum optio porro numquam illo nobis
+            accusamus recusandae, esse id non atque?</p>
 
           <div class="my-progress progress-1"><span>HTML</span><span>100%</span></div>
-          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
             <div class="progress-bar my-bg-info" style="width: 100%">100%</div>
-        </div>
+          </div>
 
-        <div class="my-progress"><span>CSS</span><span>90%</span></div>
-          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="my-progress"><span>CSS</span><span>90%</span></div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
             <div class="progress-bar my-bg-info" style="width: 90%">90%</div>
-        </div>
+          </div>
 
-        <div class="my-progress"><span>JAVASCRIPT</span><span>75%</span></div>
-          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="my-progress"><span>JAVASCRIPT</span><span>75%</span></div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
             <div class="progress-bar my-bg-info" style="width: 75%">75%</div>
-        </div>
+          </div>
 
-        <div class="my-progress"><span>PHOTOSHOP</span><span>55%</span></div>
-          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="my-progress"><span>PHOTOSHOP</span><span>55%</span></div>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
             <div class="progress-bar my-bg-info" style="width: 55%">55%</div>
-        </div>
+          </div>
 
+        </div>
       </div>
-    </div>
   </section>
 
   <section id="services">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 col-12 col-sm-12 col-md-12 services_header text-center"><h2>SERVICES</h2></div>
+        <div class="col-lg-12 col-12 col-sm-12 col-md-12 services_header text-center">
+          <h2>SERVICES</h2>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-12 col-12 col-sm-12 col-md-12 service_sub_header">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium eligendi eos dolore voluptatibus. Esse, totam. Repellat, porro! Fugiat reiciendis animi voluptatum ipsum quae quos ducimus rem aliquid aperiam dignissimos.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium eligendi eos dolore
+            voluptatibus. Esse, totam. Repellat, porro! Fugiat reiciendis animi voluptatum ipsum quae quos ducimus rem
+            aliquid aperiam dignissimos.</p>
         </div>
       </div>
       <div class="row flex-container">
@@ -288,7 +319,8 @@
       <div class="row">
         <div class="col-lg-9 col-12 col-sm-12 col-md-12 call_to_action_left">
           <h3>Call To Action</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vel quo velit unde aspernatur libero deserunt sed tempore earum aut mollitia quam perspiciatis, necessitatibus nostrum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vel quo velit unde aspernatur libero
+            deserunt sed tempore earum aut mollitia quam perspiciatis, necessitatibus nostrum.</p>
         </div>
         <div class="col-lg-3 col-12 col-sm-12  col-md-12 call_to_action_right">
           <a href="#">Call To Action</a>
@@ -302,7 +334,9 @@
       <div class="row">
         <div class="col-lg-12 col-12 col-sm-12 team-header">
           <h2>TEAM</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde tempora laborum voluptates repellendus eum sapiente dolorem corporis minus quibusdam! Nihil sapiente facere aut totam animi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nemo.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde tempora laborum voluptates repellendus eum
+            sapiente dolorem corporis minus quibusdam! Nihil sapiente facere aut totam animi?Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Blanditiis, nemo.</p>
         </div>
       </div>
       <div class="row">
@@ -388,12 +422,76 @@
     </div>
   </section>
 
+  <section id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 gallery-header text-center">
+          <h1>PORTFOLIO</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="gellery-menu col-lg-12 text-center">
+          <button type="button" class="btn btn-primary filter-button" data-filter="all">All</button>
+          <button type="button" class="btn btn-primary filter-button" data-filter="one">One</button>
+          <button type="button" class="btn btn-primary filter-button" data-filter="two">Two</button>
+          <button type="button" class="btn btn-primary filter-button" data-filter="three">Three</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="gallery-flex-container col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="gallery-flex-items filter one">One</div>
+          <div class="gallery-flex-items filter one">Two</div>
+          <div class="gallery-flex-items filter one">Three</div>
+          <div class="gallery-flex-items filter two">Four</div>
+          <div class="gallery-flex-items filter two">Five</div>
+          <div class="gallery-flex-items filter two">Six</div>
+          <div class="gallery-flex-items filter three">Seven</div>
+          <div class="gallery-flex-items filter three">Eight</div>
+          <div class="gallery-flex-items filter three">Nine</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="backToTop">
+    <a href="#" id="goTop"><i class="fas fa-sharp fa-regular fa-chevron-up"></i></a>
+  </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
   <script src="./jquery-3.7.0.min.js"></script>
-  
+
+  <!-- gallery data filer js code -->
+  <script>
+    $(".filter-button").click(function () {
+      var value = $(this).attr('data-filter');
+
+      if (value == "all") {
+        $('.filter').show('1000');
+      }
+      else {
+        $(".filter").not('.' + value).hide('3000');
+        $(".filter").filter('.' + value).show('3000');
+      }
+
+    });
+
+    if ($(".filter-button").removeClass("active")) {
+      $(this).removeClass("active");
+    }
+    $(this).addClass("active");
+
+  </script>
+
+  <script src=".\backToTop.js"></script>
+
+
 </body>
 
 </html>
