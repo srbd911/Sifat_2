@@ -662,7 +662,6 @@ body {
     background: #eff2f8;
     color: #37517E;
     text-decoration: none;
-
 }
 
 #team .team-card .team-card-item .card-contents .dummy-div-1 {
@@ -829,7 +828,7 @@ body {
     font-size: 16px;
     color: #444444;
     text-align: center;
-    
+
 }
 
 #pricing .pricing-flex-container {
@@ -880,26 +879,32 @@ body {
     margin-top: -10px;
     margin-bottom: 40px;
 }
+
 #pricing .pricing-flex-container .pricing-item ul {
     list-style-type: none;
     margin-left: -30px;
     margin-bottom: 40px;
 }
+
 #pricing .pricing-flex-container .pricing-item ul li {
     color: #999999;
     line-height: 36px;
 }
+
 #pricing .pricing-flex-container .pricing-item ul li i {
     padding-right: 10px;
     color: green;
 }
+
 #pricing #not-free {
     text-decoration: line-through;
     color: #c6c2c2;
 }
+
 #pricing #not-free i {
     color: #c6c2c2;
 }
+
 #pricing .pricing-flex-container .pricing-item a {
     padding: 15px 30px;
     color: #4DB2E4;
@@ -909,14 +914,114 @@ body {
     font-weight: 500;
     transition: all linear 0.3s;
 }
+
 #pricing .pricing-flex-container .pricing-item a:hover {
     background-color: rgb(34, 177, 233);
     color: #fff;
 }
+
 #pricing #business-subscription-button {
     background-color: #47B2E4;
     color: #fff;
 }
+
 #pricing #business-subscription-button:hover {
     background-color: #2ca4dc;
+}
+
+/* ========================= footer section css starts ============================ */
+#footer {
+    width: 100%;
+    background-color: #F3F5FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#footer .footer-item h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;
+}
+
+#footer .footer-item span {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    color: #5e5e5e;
+}
+
+#footer .footer-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #37517e;
+    line-height: 32px;
+}
+#footer .footer-item ul li {
+    list-style-type: none;
+   
+}
+#footer .footer-item ul {
+    padding-left: 0px;
+}
+#footer .footer-item ul li {
+    line-height: 30px;
+}
+#footer .footer-item ul li i {
+    font-size: 10px;
+    color: #47B2E4;
+    margin-right: 15px;
+}
+#footer .footer-item ul li a{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(119, 119, 119,0.9);
+    text-decoration: none;
+    font-weight: 400;
+    transition: all linear 0.3s;
+}
+#footer .footer-item ul li a:hover {
+    color: #01a7f4;
+}
+#footer .social p {
+    color: #444444;
+    font-size: 14px;
+    line-height: 28px;
+}
+#footer .social a {
+    padding: 10px 10px;
+    background-color: #2CA4DC;
+    font-size: 14px;
+    border-radius: 50%;
+    margin: 1px;
+    transition: all linear 0.3s;
+}
+#footer .social a i{
+    transition: ease-in-out 0.3s;
+    display: inline-flex;
+    color: #fff;
+    font-size: 14px;
+    
+}
+#footer .social a:hover {
+    background-color: #1493ce;
+}
+
+/* ==================== footer02 section css starts from here =================== */
+#footer02 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: #37517E;
+}
+#footer02 .footer02 span{
+    color: #fff;
+    font-size: 14px;
+}
+#footer02 .footer02 {
+    text-align: center;
 }
