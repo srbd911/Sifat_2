@@ -217,6 +217,18 @@
         flex-basis: 96%;
     }
 
+    #footer .social a {
+        padding: 7px 7px;
+        font-size: 12px;
+        margin: 0px;
+    }
+    #footer .social a i{
+        font-size: 12px;
+    }
+    #footer02 .footer02 {
+        text-align: center;
+    }
+
 }
 
 /* ===========================For small device 576px to 767px=============================== */
@@ -257,6 +269,9 @@
     }
     #pricing .pricing-flex-container .pricing-item {
         flex-basis: 96%;
+    }
+    #footer02 .footer02 {
+        text-align: center;
     }
 }
 
@@ -303,5 +318,33 @@
     #pricing .pricing-flex-container .pricing-item {
         flex-basis: 48%;
         justify-content: flex-start;
+    }
+    #footer02 .footer02 {
+        text-align: left;
+    }
+    #footer02 .footer02:last-child {
+        text-align: right;
+    }
+}
+
+/* ============For larger device============= */
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+    #footer02 .footer02 {
+        text-align: left;
+    }
+    #footer02 .footer02:last-child {
+        text-align: right;
+    }
+}
+
+/* ============For Extra larger device============= */
+@media (min-width: 1200px) and (max-width: 1599px) 
+{
+    #footer02 .footer02 {
+        text-align: left;
+    }
+    #footer02 .footer02:last-child {
+        text-align: right;
     }
 }
